@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="my_array">
+        <item>---Por favor, elija uno de color---</item>
+        <item>BLANCA</item>
+        <item>ROJA</item>
+        <item>VERDE</item>
+        <item>AMARILLA</item>
+        <item>AZUL</item>
+        <item>GRAY</item>
+        <item>GRIS</item>
+        <item>MAGENTA</item>
+        <item>LIMA</item>
+        <item>ACEITUNA</item>
+        <item>GRANATE</item>
+    </string-array>
+
+    <string-array name="colors">
+        <item>---Please Choose one of Colour---</item>
+        <item>WHITE</item>
+        <item>RED</item>
+        <item>GREEN</item>
+        <item>YELLOW</item>
+        <item>BLUE</item>
+        <item>GRAY</item>
+        <item>CYAN</item>
+        <item>MAGENTA</item>
+        <item>LIME</item>
+        <item>OLIVE</item>
+        <item>MAROON</item>
+    </string-array>
+
+</resources>

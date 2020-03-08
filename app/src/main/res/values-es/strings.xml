@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Actividad de paleta</string>
+    <string name="textview">Vista de texto</string>
+    <string name="app_name2">Actividad de lienzo</string>
+</resources>

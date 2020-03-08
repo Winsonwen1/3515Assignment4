@@ -6,15 +6,15 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
-
 import java.util.ArrayList;
-import java.util.List;
 
 public class ColorAdapter extends BaseAdapter {
-    List<String> list = new ArrayList();
-    Context context;
+    private ArrayList<String> color;
+    private ArrayList<String> list;
+    private  Context context;
 
-    ColorAdapter(List<String> list, Context context) {
+    ColorAdapter(ArrayList<String> color, ArrayList<String> list, Context context) {
+        this.color = color;
         this.list = list;
         this.context = context;
     }
@@ -22,7 +22,7 @@ public class ColorAdapter extends BaseAdapter {
 
     @Override
     public int getCount() {
-        return list.size();
+        return color.size();
     }
 
     @Override
@@ -42,7 +42,7 @@ public class ColorAdapter extends BaseAdapter {
         tv.setText(list.get(position));
         tv.setId(position);
         if (position != 0) {
-            tv.setBackgroundColor(Color.parseColor(list.get(position)));
+            tv.setBackgroundColor(Color.parseColor(color.get(position)));
         }
 
         return tv;
