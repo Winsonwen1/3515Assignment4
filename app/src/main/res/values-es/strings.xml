@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Actividad de paleta</string>
-    <string name="textview">Vista de texto</string>
+    <string name="app_name">Doble color</string>
+    <string name="text_view">Es un fragmento del lienzo.</string>
     <string name="app_name2">Actividad de lienzo</string>
+    <string name="this_palette_fragment">Es un trozo de paleta.</string>
 </resources>
